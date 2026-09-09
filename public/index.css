@@ -1,0 +1,40 @@
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        max-height: 40vh;
+        width: fit-content;
+    }
+    h3 {
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+
+.thumbnail {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    li {
+        scale: 0.9;
+        transition: 0.15s scale;
+
+        &:hover {
+            scale: 1;
+        }
+    }
+
+    li img {
+        width: 60px;
+        height: auto;
+    }
+}
