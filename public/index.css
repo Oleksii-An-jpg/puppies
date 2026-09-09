@@ -2,18 +2,21 @@
     max-width: 960px;
     margin: 40px auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .dog {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5em;
 
     img {
         max-height: 40vh;
         width: fit-content;
     }
     h3 {
+        margin: 0;
         text-align: center;
         text-transform: capitalize;
     }
@@ -35,6 +38,22 @@
 
     li img {
         width: 60px;
+        height: auto;
+    }
+}
+
+.favourites {
+    list-style: none;
+
+    li {
+        padding: 0.5em;
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+    }
+
+    li img {
+        width: 120px;
         height: auto;
     }
 }
