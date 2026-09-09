@@ -14,6 +14,6 @@ Open http://localhost:8080
 
 ```bash
 npm install
-npm run build          # compiles public/client.ts -> public/client.js
+npm run build          # compiles public/index.ts -> public/index.js
 npx serve public       # or just open public/index.html directly in a browser
 ```
